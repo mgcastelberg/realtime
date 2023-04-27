@@ -1,0 +1,11 @@
+.container {
+    color: gray;
+    @apply px-2 mx-auto max-w-7xl sm:px-2 lg:px-8;
+}
+
+.alert-success{
+    @apply text-green-800 border rounded-lg mb-7 bg-green-50 dark:bg-gray-800 dark:text-green-400 dark:border-green-900;
+}
+.alert-danger{
+    @apply text-red-800 border rounded-lg mb-7 bg-red-50 dark:bg-gray-800 dark:text-red-400 dark:border-red-900;
+}
